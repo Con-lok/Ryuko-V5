@@ -1,0 +1,93 @@
+# main.js
+main.commands=Đã Tải Thành Công Lệnh %1
+main.events=Đã Tải Thành Công Sự Kiện %1
+main.cmderr=Không Thể Tải Lệnh %1, Lỗi: %2.
+main.evnterr=Không Thể Tải Sự Kiện %1, Lỗi: %2.
+main.configload=Đang Tải Tệp %1.
+main.configerr=Không Thể Tải Tệp %1, Lỗi: %1.
+main.accountload=Đang Tải Dữ Liệu %1.
+main.loadedacc=Đã Tải Dữ Liệu %1.
+main.accounterr=Không Thể Tải %1, Lỗi: %2.
+main.emailNotfound=Vui Lòng Nhập Email Của Bạn Trong Tệp %1.
+main.startloadCmd=\nĐANG TẢI LỆNH
+main.startloadEvnt=ĐANG TẢI SỰ KIỆN
+main.cmdNameErr=Tên Của %1 Bị Rỗng Hoặc Sai Định Dạng
+main.cmdCategoryErr=Danh Mục Của %1 Bị Rỗng Hoặc Sai Định Dạng
+main.premiumCmdErr=Thuộc Tính Premium Của %1 Bị Rỗng Hoặc Sai Định Dạng
+main.prefixCmdErr=Thuộc Tính Prefix Của %1 Bị Rỗng Hoặc Sai Định Dạng
+main.commandNameExist=Lệnh %1 Đã Được Tải
+main.failedEvnt=Không Thể Tải %1, Sai Định Dạng
+main.evNameExist=Sự Kiện %1 Đã Được Tải
+main.successLogin=Đã Đăng Nhập Tệp %1
+main.loadingLogin=ĐANG TẢI HỆ THỐNG ĐĂNG NHẬP
+main.appstateEmpty=Tệp Appstate "%1" Bị Rỗng, Đang Xóa
+main.loggingIn=Đang Đăng Nhập Tệp %1
+main.loginErr=Lỗi Xử Lý Appstate %1, Lỗi: %2
+main.loginErrencounter=Đã Gặp Lỗi Trong Phiên Đăng Nhập, Vui Lòng Kiểm Tra Console.
+main.loadingDatabase=ĐANG TẢI HỆ THỐNG CƠ SỞ DỮ LIỆU
+main.databaseLoaded=Đã Tải Hệ Thống %1
+main.data1=Bot Này Được Tạo Bởi Ryuko, Vui Lòng Không Thay Đổi Phần Ghi Công.
+main.cantDeployData=Không Thể Triển Khai Hệ Thống %1, Lỗi: %1
+main.updateSystem=\nĐANG TẢI HỆ THỐNG CẬP NHẬT
+main.checkUpdate=Đang Kiểm Tra %1 Có Sẵn
+main.errorUpdate=Không Thể Tải %1, Lỗi: %2
+main.loadingUpdate=%1 Đã Được Tìm Thấy, Đang Cập Nhật Lên Phiên Bản Mới Nhất
+main.loadedUpdate=Đã Tải Thành Công %1
+main.noFoundUpdates=Bạn Đang Sử Dụng Phiên Bản Mới Nhất
+main.errUpdateCheck=Không Thể Kiểm Tra Cập Nhật, Lỗi: %1
+main.data2=Gặp Lỗi? Vui Lòng Liên Hệ Qua Facebook: www.facebook.com/profile/ryukodev
+main.data3=Hãy Thưởng Thức Chế Độ Appstate Nhiều Tài Khoản Với Ryuko V5
+
+# includes/listen.js
+listen.startLoadEnvironment=Tiến Hành Tải Biến Môi Trường.
+listen.loadedEnvironmentThread=Đã Tải Thành Công Biến Môi Trường Chủ Đề
+listen.loadedEnvironmentUser=Đã Tải Thành Công Biến Môi Trường Người Dùng
+listen.successLoadEnvironment=Đã Tải Thành Công Biến Môi Trường
+listen.failLoadEnvironment=Không Thể Tải Biến Môi Trường, Lỗi: %1
+
+# includes/controller/currencies.js
+currencies.needObjectOrArray=Phải Là Một Mảng Hoặc Một Đối Tượng Hoặc Cả Hai.
+currencies.needObject=Phải Là Một Đối Tượng.
+currencies.needNumber=Phải Là Một Số.
+
+# includes/controller/threads.js
+threads.needObjectOrArray=Phải Là Một Mảng Hoặc Một Đối Tượng Hoặc Cả Hai.
+threads.needObject=Phải Là Một Đối Tượng.
+
+# includes/controller/users.js
+users.needObjectOrArray=Phải Là Một Mảng Hoặc Một Đối Tượng Hoặc Cả Hai.
+users.needObject=Phải Là Một Đối Tượng.
+
+# includes/handle/handleCommand.js
+handleCommand.userBanned=Bạn Không Được Sử Dụng Bot.
+handleCommand.threadBanned=Nhóm Của Bạn Không Được Sử Dụng Bot.
+handleCommand.commandNotExist=Lệnh Bạn Dùng Không Tồn Tại, Thử "%1".
+handleCommand.commandThreadBanned=Nhóm Của Bạn Không Được Sử Dụng Lệnh "%1".
+handleCommand.commandUserBanned=Bạn Không Được Sử Dụng Lệnh "%1".
+handleCommand.threadNotAllowNSFW=Nhóm Của Bạn Không Được Phép Sử Dụng Lệnh NSFW.
+handleCommand.cantGetInfoThread=Không Thể Lấy Thông Tin Nhóm Của Bạn, Lỗi: %1
+handleCommand.permissionNotEnough=Bạn Không Có Quyền Sử Dụng Lệnh "%1"
+handleCommand.cantSetMessageReaction=Gặp Lỗi Không Mong Muốn Khi Thiết Lập Phản Ứng Tin Nhắn, Lỗi: %1
+handleCommand.executeCommand=\nThời Gian Và Ngày: %1\nLệnh Được Dùng: %2\nID Người Dùng: %3\nID Nhóm: %4\nTham Số Kèm Theo: %5\nThời Gian Xử Lý: %6ms
+handleCommand.commandError=Gặp Lỗi Không Mong Muốn Khi Dùng Lệnh %1, Lỗi: %2.
+handleCommand.notMatched=Lệnh Này Không Yêu Cầu Một Tiền Tố Để Bắt Đầu.
+handleCommand.noPrefix=Lệnh Này Không Có Thuộc Tính "usePrefix"
+handleCommand.commandNotFound=Lệnh Bạn Dùng Không Tồn Tại.
+
+# includes/handle/handleEvent.js
+handleEvent.executeEvent=\nThời Gian Và Ngày: %1\nSự Kiện Được Thực Hiện: %2\nID Nhóm: %3\nThời Gian Xử Lý: %4ms
+handleEvent.eventError=Gặp Một Lỗi Khi Thực Hiện Sự Kiện %1, Lỗi: %2.
+
+# includes/handle/handleReaction.js
+handleReaction.missingValue=Thiếu Giá Trị Để Giải Quyết Vấn Đề Của Bạn.
+handleReaction.executeError=Gặp Một Lỗi Khi Phản Hồi Vấn Đề Của Bạn, Lỗi: %1.
+
+# includes/handle/handleReply.js
+handleReply.missingValue=Thiếu Giá Trị Để Giải Quyết Vấn Đề Của Bạn.
+handleReply.executeError=Gặp Một Lỗi Khi Phản Hồi Vấn Đề Của Bạn, Lỗi: %1.
+
+# includes/handle/handleSchedule.js
+handleSchedule.exectuteError=Gặp Một Lỗi Khi Lên Lịch Tại Module %1, Lỗi: %2.
+
+# utils/index.js
+utils.throwError=Lỗi Cú Pháp, Vui Lòng Sử Dụng %1Help %2 Để Xem Chi Tiết Cách Sử Dụng.
